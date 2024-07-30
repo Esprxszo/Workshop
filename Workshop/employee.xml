@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<!DOCTYPE employee [
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (id, firstname, lastname, position, salary)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+]>
+
+<employees>
+    <employee>
+        <id>AC1234</id>
+        <firstname>ปราณี</firstname>
+        <lastname>สุวรรณกุล</lastname>
+        <position>พนักงาน</position>
+        <salary>15k</salary>
+    </employee>
+    <employee>
+        <id>AP1234</id>
+        <firstname>สุวรรณ์ดี</firstname>
+        <lastname>ทองดี</lastname>
+        <position>พนักงาน</position>
+        <salary>15k</salary>
+    </employee>
+    <employee>
+        <id>AE1234</id>
+        <firstname>ณัฐวุฒิ</firstname>
+        <lastname>รัตนเสถียร</lastname>
+        <position>พนักงาน</position>
+        <salary>15k</salary>
+    </employee>
+    <employee>
+        <id>AD1234</id>
+        <firstname>สุดใจ</firstname>
+        <lastname>วงศ์สุวรรณ</lastname>
+        <position>พนักงาน</position>
+        <salary>15k</salary>
+    </employee>
+    <employee>
+        <id>AF1234</id>
+        <firstname>วิชัย</firstname>
+        <lastname>สุขสัมปัต</lastname>
+        <position>คนคอยตอบแชท</position>
+        <salary>10k</salary>
+    </employee>
+</employees>

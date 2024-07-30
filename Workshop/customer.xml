@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="customer.xsl"?>
+<!DOCTYPE customer [
+<!ELEMENT customers (customer*)>
+<!ELEMENT customer (customerid, name, lastname, phonenumber, gender)>
+<!ELEMENT customerid (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT phonenumber (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+]>
+
+<customers>
+    <customer>
+        <customerid>01</customerid>
+        <name>ณัฐวุฒิ</name>
+        <lastname>สุขสัมปัต</lastname>
+        <phonenumber>0111111111</phonenumber>
+        <gender>M</gender>
+    </customer>
+    <customer>
+        <customerid>02</customerid>
+        <name>จรินทร์</name>
+        <lastname>พรหมสุข</lastname>
+        <phonenumber>0222222222</phonenumber>
+        <gender>F</gender>
+    </customer>
+    <customer>
+        <customerid>03</customerid>
+        <name>ณิชชา</name>
+        <lastname>ทองทวี</lastname>
+        <phonenumber>0333333333</phonenumber>
+        <gender>F</gender>
+    </customer>
+    <customer>
+        <customerid>04</customerid>
+        <name>ธนพล</name>
+        <lastname>บุญสิริ</lastname>
+        <phonenumber>0444444444</phonenumber>
+        <gender>M</gender>
+    </customer>
+    <customer>
+        <customerid>05</customerid>
+        <name>ชนะพงศ์</name>
+        <lastname>รัตนวงศ์</lastname>
+        <phonenumber>0555555555</phonenumber>
+        <gender>M</gender>
+    </customer>
+</customers>
